@@ -1,0 +1,157 @@
+body{
+	background-image: url(images/fountain.jpg);
+	background-size: cover;
+}
+.socialMediaIcon{
+	width: 2.5%;
+	height: 1%;
+	margin-top: 0.2%;
+}
+#facebookIcon{
+	margin-left: 91.5%;
+}
+#topBanner{
+	background: black;
+	position: fixed;
+	z-index: 100;
+}
+.navButton{
+	background: black;
+	font-family:"Mouse Deco";
+	color: white;
+	margin-left: -3%; 
+	height: 25px;
+	text-indent: 1%;
+	width: 90%;
+}
+#topBannerToIndexNavHomeClear{
+	height: 50px;
+}
+#indexNavHomeToIndexNavMyProjectsClear{
+	margin-top: 5%;
+}
+#indexNavMyProjectsToIndexNavBioClear{
+	margin-top: 5%;
+}
+#indexNavBioToIndexNavContactClear{
+	margin-top: 5%;
+}
+ul{
+	list-style-type: none;
+	margin-left: -3%;
+}
+#indexNavBackground{
+	background-color: rgba(8,161,179,0.35);
+	width: 19%;
+	position: fixed;
+	text-shadow: black;
+}
+#indexNavContactToInfinity{
+	height: 700px;
+}
+.pageHeadingIcon{
+	position: absolute;
+	z-index: 50;
+	background: rgba(8,161,179,0.35);
+	margin-left:79.5%;
+	margin-top: 4.7%;
+	height: 47px;
+	width: 250px;
+	border: 2px solid white;
+	font-family: "Mouse Deco";
+	color:white;
+	font-size: 42px;
+	text-shadow:2px 2px black;
+}
+.mainContentField{
+	position: absolute;
+	z-index: 50;
+	background: rgba(0,0,0,0.35);
+	margin-left:20%;
+	margin-top: 10%;
+	height: 100%;
+	width: 60%;
+	border: 2px solid white;
+	font-family: "Mouse Deco";
+	color:white;
+	font-size: 20px;
+	text-indent: 10%;
+	text-shadow:2px 2px black;
+}
+.float:hover {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 1 1 1px rgba(0, 0, 0, 1);
+}
+.mainContentFieldTitle{
+	position: absolute;
+	text-align: left;
+	z-index: 50;
+	background: rgba(8,161,179,0.35);
+	height: 47px;
+	width: 300px;
+	border: 2px solid white;
+	margin-left: -2px;
+	margin-top: -2px;
+	font-family: "Mouse Deco";
+	color:white;
+	font-size: 42px;
+	text-shadow:2px 2px black;
+}
+#arrowIconHome{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	margin-left: 62%;
+	margin-top: 1%;
+}
+#arrowIconMyProjects{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 1%;
+}
+#arrowIconBio{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	margin-left: 72%;
+	margin-top: 1%;
+}
+#arrowIconContact{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	margin-left: 47%;
+	margin-top: 1%;
+}
+#pageHeadingIconHome{
+	text-indent: 8.3%;
+}
+#pageHeadingIconMyProjects{
+	text-indent: 0.8%;
+	font-size: 33px;
+}
+#pageHeadingIconBio{
+	text-indent: 12%;
+}
+#pageHeadingIconContact{
+	text-indent: 2.5%;
+}
+#clickBox{
+	color: white;
+	width: 20px;
+	height: 10px;
+}
