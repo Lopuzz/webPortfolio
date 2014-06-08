@@ -1,0 +1,176 @@
+body{
+	background-image: url(images/blueForestBackground.jpg);
+	background-size: cover;
+}
+.socialMediaIcon{
+	width: 2.5%;
+	height: 1%;
+	margin-top: 0.2%;
+}
+#facebookIcon{
+	margin-left: 91.5%;
+}
+#topBanner{
+	background: black;
+	position: fixed;
+	z-index: 100;
+}
+.navButton{
+	background: rgba(0,0,0,0.0);
+	font-family:"Mouse Deco";
+	color: white;
+	margin-left: -3%; 
+	height: 25px;
+	text-indent: 5%;
+	width: 90%;
+}
+#topBannerToIndexNavHomeClear{
+	height: 50px;
+}
+#indexNavHomeToIndexNavMyProjectsClear{
+	margin-top: 5%;
+}
+#indexNavMyProjectsToIndexNavBioClear{
+	margin-top: 5%;
+}
+#indexNavBioToIndexNavContactClear{
+	margin-top: 5%;
+}
+ul{
+	list-style-type: none;
+	margin-left: -3%;
+}
+#indexNavBackground{
+	background: rgba(0,0,0,0.35);
+	width: 19%;
+	position: fixed;
+	text-shadow: black;
+}
+#indexNavContactToInfinity{
+	height: 700px;
+}
+.float:hover {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 1 1 1px rgba(0, 0, 0, 1);
+}
+#arrowIconHome{
+	height: 22px;
+	width: 5px;
+	position: absolute;
+	margin-left: -30%;
+	margin-top: -1%;
+}
+#arrowIconMyProjects{
+	height: 22px;
+	width: 5px;
+	position: absolute;
+	margin-left: -61.5%;
+	margin-top: -1%;
+}
+#arrowIconBio{
+	height: 22px;
+	width: 5px;
+	position: absolute;
+	margin-left: -19.5%;
+	margin-top: -1%;
+}
+#arrowIconContact{
+	height: 22px;
+	width: 5px;
+	position: absolute;
+	margin-left: -45%;
+	margin-top: -1%;
+}
+#clickBox{
+	color: white;
+	width: 20px;
+	height: 10px;
+}
+#mainLogoLeftClear{
+	width: 200px;
+	position: absolute;
+}
+#mainLogo{
+	height: 75px;
+	width: 791px;
+	position: absolute;
+	margin-left: 270px;
+	margin-top: 50px;
+}
+.mainContentFieldHeading1{
+	font-size: 25px;
+	margin-left: 30px;
+}
+.mainContentField{
+	position: absolute;
+	z-index: 50;
+	background: rgba(0,0,0,0.35);
+	margin-left:20.1%;
+	margin-top: 10%;
+	height: 100%;
+	width: 58.5%;
+	font-family: Kalinga;
+	color:white;
+	font-size: 20px;
+	text-shadow:2px 2px black;
+}
+#mainContentFieldParagraph1Home{
+	max-width: 500px;
+	margin-left: 50px;
+	position: relative;
+	float: right;
+	margin-top: -200px;
+}
+#mainContentFieldParagraph1Bio{
+	max-width: 700px;
+	margin-left: 50px;
+}
+#mainContentFieldParagraph1Contact{
+	margin-left: 20px;
+}
+#profilePicture{
+	width: 220px;
+	height: 250px;
+	position: relative;
+	float: left;
+	margin-left: 30px;
+}
+#periodicTable{
+	width: 450px;
+	height: 280px;
+	position: relative;
+	float: left;
+	margin-left: 30px;
+}
+#uppgiftWebsite{
+	width: 450px;
+	height: 280px;
+	position: relative;
+	float: left;
+	margin-left: 30px;
+}
+#mainContentFieldProjectClear{
+	height: 20px;
+	position: relative;
+}
+#mainContentFieldDiv1MyProjects{
+	height: 280px;
+}
+#mainContentFieldDiv2MyProjects{
+	height: 280px;
+}
+
+
+
